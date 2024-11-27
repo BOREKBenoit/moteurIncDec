@@ -85,9 +85,7 @@ void loop() {
     analogWrite(red, 0);
     analogWrite(blue, 0);
 
-    // Je change la sortie mli à 0 donc le moteur ne tourne pas
-    // Pour en savoir plus sur le fonctionnement d'un transisor veuillez regarder la fiche de maintenance disponible sur mon github.
-    //https://github.com/BOREKBenoit/moteurIncDec
+    // Je change la sortie mli à 0 donc le moteur ne tourne pas.
     analogWrite(mli, 0);
   }
 
